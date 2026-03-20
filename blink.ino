@@ -15,11 +15,11 @@ void loop() {
     digitalWrite(LEDVerde, HIGH);
     digitalWrite(LEDAmarelo, LOW);
     digitalWrite(LEDVermelho, LOW);
-    delay(TempoVerde);
+    delay(TempoVerde * 8); //Se quiser mudar a duração, mude o multiplicador
     digitalWrite(LEDVerde, LOW);
     digitalWrite(LEDAmarelo, HIGH);
     digitalWrite(LEDVermelho, LOW);
-    delay(TempoVerde * 2); //Se quiser mudar a duração, mude o multiplicador
+    delay(TempoVerde * 2); //Mesma informação, edite o multiplicador se quiser
     digitalWrite(LEDVerde, LOW);
     digitalWrite(LEDAmarelo, LOW);
     digitalWrite(LEDVermelho, HIGH);
